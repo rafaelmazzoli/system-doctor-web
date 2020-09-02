@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* MENU-ADMIN.PHP CONTENT */
+
+div#menu-content
+{
+	padding: 0em 1.2em 1.2em 1.2em;
+}
+
+h2#content-title
+{
+	margin: 0em;
+}
+
+input
+{
+    box-sizing: border-box;
+	border: 1px solid gray;
+	outline: none;
+}
+
+input:focus
+{
+	background-color: lightblue;
+}
+
+textarea
+{
+    box-sizing: border-box;
+	border: 1px solid gray;
+	outline: none;
+	background-color: white;
+}
+
+textarea:focus
+{
+	background-color: lightblue;
+}
+
+td
+{
+	text-align: center;
+	padding-left: auto;
+	padding-right: auto;
+	line-height: 1.5;
+}
+
+table
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+button
+{
+	background-color: white;
+}

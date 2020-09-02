@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+@font-face
+{
+	font-family: 'Champagne';
+	src: url("../_fonts/Champagne & Limousines Bold.ttf");
+}
+
+@font-face
+{
+	font-family: 'TG Naonao';
+	src: url("../_fonts/Allema Free Demo.ttf");
+}
+
+/* BASE */
+html
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	background: url('../_images/doctor-office.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: initial;
+	font-family: Champagne;
+}
+
+div#header
+{
+	background-color: rgba(0,206,209, 0.85);
+	box-shadow: 0em 0em 0.5em rgba(0,0,0,0.8);
+	width: 100%;
+	height: 16%;
+	margin-top: 0;
+}
+
+div#alert
+{
+	background-color: lime;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 4%;
+	font-size: 1em;
+	opacity: 0;
+}
+
+div#container-middle
+{
+	width: 100%;
+	height: 50%;
+	padding-top: 8em;
+}
+
+div#container-login
+{
+	background-color: rgba(200,230,255, 0.9);
+	border-radius: 0.5em;
+	box-shadow: 0em 0em 1em rgba(0,0,0,0.8);
+	width: 60%;
+	margin: auto;
+	height: 40%;
+}
+
+div#footer
+{
+	background-color: rgba(0,206,209, 0.85);
+	box-shadow: 0em 0em 0.5em rgba(0,0,0,0.8);
+	width: 100%;
+	height: 10%;
+	margin-top: 1.5em;
+}
+
+/* GLOBAL */
+
+h1
+{
+	margin: 0em;
+}
+
+/* HEADER */
+
+h1#titulo-principal
+{
+	font-size: 3.5em;
+	text-align: center;
+	font-family: TG Naonao;
+	padding-top: 0.3em;
+	color: white;
+}
+
+hr.left
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 20em;
+	margin-right: -20em;
+	padding-top: 0.5em;
+	top: 3em;
+	background-color: rgba(255,255,255,0.5);
+}
+
+hr.right
+{
+	position: relative;
+	display: block;
+	float: right;
+	width: 20em;
+	padding-top: 0.5em;
+	top: -3.5em;
+	background-color: rgba(255,255,255,0.5);
+}
+
+/* CONTAINER-LOGIN */
+
+p#text-user
+{
+	padding-top: 0.6em;
+	font-size: 1.5em;
+	text-decoration: bold;
+}
+
+input#user-input
+{
+	border-radius: 0.2em;
+	border: 0.1em solid rgba(0,0,0,0.6);
+	box-shadow: 0em 0em 0.2em rgba(0,0,0,0.4);
+}
+
+
+input#send-button
+{
+	background-color: cyan;
+	border-radius: 0.8em;
+	border: 0.1em solid rgba(0,0,0,0.6);
+	box-shadow: 0em 0em 0.5em rgba(0,0,0,0.4);
+}
+
+input#send-button:hover
+{
+	background-color: darkcyan;
+}
+
+input#send-button:active
+{
+	background-color: lightcyan;
+}
+
+span.left
+{
+	margin-left: -1em;
+}
+
+.user
+{
+	text-align: center;
+}
+
+/* ALERT */
+
+p#alert-mensage
+{
+	margin: auto;
+	padding-top: 0.2em;
+}
+
+/* MENU-ADMIN.PHP */
+
+div#menu-bar
+{
+	display: block;
+	position: relative;
+	padding: 0.4em;
+}
+
+button,#update
+{
+	background-color: rgba(255,255,255, 0.9);
+	border: 0.1em solid rgba(0,0,0,0.4);
+	border-radius: 0.5em;
+}
+
+#paciente-cadastrado:hover,#cadastrar-medico:hover,#logout:hover,#formulario-paciente:hover,button:hover,#update:hover
+{
+	background-color: rgba(205,205,255, 0.9);
+}
+
+#logout
+{
+	float: right;
+}
+
+.right
+{
+	float: right;
+}
+
+.textright
+{
+	text-align: right;
+}
+
+.textleft
+{
+	text-align: left;
+}
+
+.left50
+{
+	width: 50%;
+	float: left;
+}
+
+.right50
+{
+	width: 50%;
+	float: right;
+}
+
+h2#content-title
+{
+	float: left;
+}
+
+.midhr
+{
+	width: 100%;
+	margin: auto;
+}
+
+label
+{
+	color: black;
+	text-decoration: underline;
+}
+
+.result
+{
+	color: teal;
+}
+
+/* FOOTER */
+
+h1#footer
+{
+	padding-top: 0.5em;
+	color: white;
+}

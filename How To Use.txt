@@ -1,0 +1,22 @@
+Bando de Dados Utilizado = MySQL
+
+Arquivo de Criação de Tabelas no BD = "create-table.php"
+
+Nome do BD utilizado = "bdHospital"
+
+Com o Xampp instalado e Ligado. Crie o BD com o mesmo nome acima
+em "https://localhost/phpmyadmin/index.php".
+
+Com os Arquivos no diretório "xampp/htdocs", apenas abra o
+navegador em "https://localhost/login.php".
+
+No campo de "Usuário" digite "adminCreate". Aparecerá um aviso em caso de sucesso!
+
+Pronto! As tabelas do "bdHospital" estão criadas e o Usuário padrão master é:
+
+User:		admin
+Password:	admin
+
+Caso seja necessário trocar o usuário e a senha de acesso ao BD, abra o 
+arquivo "create-table.php" com um editor de texto e troque os valores
+de "$username" e "$password" para os desejados.
